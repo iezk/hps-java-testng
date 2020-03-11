@@ -1,86 +1,86 @@
 ---
 - name: I start the coffee machine using language "lang"
-  uid: 1221562a-427d-44bc-8cb1-fa4756c9a832
+  uid: bbaadbe8-4b16-42d0-b810-81018753426f
   parameters:
   - name: lang
   body_hash: 0dca366e0eefbfe2afdda10ba2bf6dc6
 - name: I shutdown the coffee machine
-  uid: 208b9d60-ef54-4c60-a086-2a1f45bf4100
+  uid: 5cff042c-256a-4ad6-88cc-7b88289d7702
   parameters: []
   body_hash: 484adb5b2a4664a4d468c66e2a8178b8
 - name: message "message" should be displayed
-  uid: 424ce2be-8f69-4499-9247-cd6024bb59ae
+  uid: 7e297e68-f245-4f0e-86f1-2d749a9ffa17
   parameters:
   - name: message
   body_hash: 85dbb82cd108b186b62beea6630186da
 - name: coffee should be served
-  uid: b4fca2eb-a8bf-46b2-99d0-865bfd27550f
+  uid: 1a2b8f40-72cf-4aca-991a-cc93e13883c5
   parameters: []
   body_hash: 7c9252da6fce7d9d92ec33f9047bb332
 - name: coffee should not be served
-  uid: 6aa875cd-0f6f-4c67-8130-e58fede3a2f7
+  uid: eb125ba8-6ef5-4dab-9e4a-01b37acbbded
   parameters: []
   body_hash: 7108a9c6cf93158258425829460bae78
 - name: I take a coffee
-  uid: 767c93b4-f3fe-4430-b34e-7b0ca5ecb1a2
+  uid: 21de481f-4b2f-4367-b2e5-62a6a25d0179
   parameters: []
   body_hash: d3b731018e0c6e030732455fa55578ab
 - name: I empty the coffee grounds
-  uid: bdfbdb31-4bd6-46ed-851f-22e4faf67e1c
+  uid: 0372e16d-408d-4d23-891b-4d18c678adf9
   parameters: []
   body_hash: 50085c7e1da853f7a1f76dbaea00a33d
 - name: I fill the beans tank
-  uid: 9cfbf759-3918-443f-84ac-65c5af46d7fd
+  uid: a3939615-1ace-483b-a185-7db3e3bd3319
   parameters: []
   body_hash: 4919bd48d489fc94342e8ca494169072
 - name: I fill the water tank
-  uid: 325bbdeb-9fc0-4dfd-9083-03f7c51c3bd0
+  uid: be75f97a-b22f-490a-9560-26e267ef23fc
   parameters: []
   body_hash: 6c8455b47f7300c09bd7ff55ba77851e
 - name: I take "coffee_number" coffees
-  uid: 4faede49-aaf0-4b25-90f4-dec94cefdad3
+  uid: 1a6b1f0e-706b-4fab-a5f9-e358b6267467
   parameters:
   - name: coffee_number
   body_hash: d41d8cd98f00b204e9800998ecf8427e
 - name: the coffee machine is started
-  uid: 8895cca1-e61d-4d7a-81ed-92b2ab5d8cc6
+  uid: 88fb7de9-c52d-4b8a-b78a-2f40374136bd
   parameters: []
   body_hash: 94bc62dc775c5d18b863b3acc45e58c1
 - name: I handle everything except the water tank
-  uid: 2ccd9ce3-3232-48b1-91f5-ff53f49b41ac
+  uid: 2c6ab594-30c5-4be4-ac49-695b3f3a7b20
   parameters: []
   body_hash: 190d3ba75e025e591ff7f99993549993
 - name: I handle water tank
-  uid: 4ffa622c-efe6-4741-b443-dc6d3ea74ff5
+  uid: 7e630bb3-7605-45da-a46c-caf57f925324
   parameters: []
   body_hash: d41d8cd98f00b204e9800998ecf8427e
 - name: I handle beans
-  uid: 1764b78a-9a87-46e3-8cda-f3dfab067a44
+  uid: 4efa9eec-a5f3-4994-96c5-c0739465d82d
   parameters: []
   body_hash: d41d8cd98f00b204e9800998ecf8427e
 - name: I handle coffee grounds
-  uid: e1e02624-26f6-41a2-b442-bd0100b5edc6
+  uid: 4fa6ddf5-c248-4edb-a32f-91e38cf8e4d9
   parameters: []
   body_hash: d41d8cd98f00b204e9800998ecf8427e
 - name: I handle everything except the beans
-  uid: d552784f-ae9f-459a-b2e0-6b8ab50b06a4
+  uid: 644c2b23-660d-488a-bc3d-7ebd3df4544c
   parameters: []
   body_hash: 7362fd1bbebadfce305cbc940457482a
 - name: I handle everything except the grounds
-  uid: 26f61e10-5a86-40a6-8253-aad5cc2e86f7
+  uid: 2f0edc06-cd31-42fc-8042-4f7481e55ba7
   parameters: []
   body_hash: 5a1a5de8852fb0d8371e89927f48ae3c
 - name: 'displayed message is:'
-  uid: 1d6c1665-c00c-44e4-8d2e-58b193f435be
+  uid: de791345-54de-4eec-965b-9d73dc0bb0d6
   parameters:
   - name: __free_text
   body_hash: bba1f64e3a77edbb2889e4b336fd6787
 - name: I switch to settings mode
-  uid: df2cc26d-7c33-4f88-9d09-d34961da94f1
+  uid: 88f6e50f-df36-4512-be27-73dec3aba10f
   parameters: []
   body_hash: d41d8cd98f00b204e9800998ecf8427e
 - name: 'settings should be:'
-  uid: 9fbb6ea8-b475-4ee1-8229-bbea9ff66fa2
+  uid: e77642fe-f069-4f45-8f4e-37b0e8bc2a14
   parameters:
   - name: __datatable
   body_hash: d41d8cd98f00b204e9800998ecf8427e
